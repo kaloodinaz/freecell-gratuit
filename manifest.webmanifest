@@ -1,0 +1,78 @@
+{
+  "id": "/freecell-gratuit/",
+  "name": "FreeCell gratuit",
+  "short_name": "FreeCell",
+  "lang": "fr",
+  "dir": "ltr",
+  "description": "Jouez gratuitement au FreeCell en ligne, sans inscription ni téléchargement. Mobile, tablette et PC. Annuler, plein écran, indices et règles du jeu inclus.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0f2d17",
+  "theme_color": "#1b3a12",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "../freecell-game/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../freecell-game/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../freecell-game/img/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "../freecell-game/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "../freecell-game/img/shots/fr-wide.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "FreeCell gratuit"
+    },
+    {
+      "src": "../freecell-game/img/shots/fr-narrow.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "FreeCell gratuit"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle partie",
+      "short_name": "Nouvelle partie",
+      "url": "./?new=1&source=shortcut",
+      "icons": [
+        {
+          "src": "../freecell-game/img/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
